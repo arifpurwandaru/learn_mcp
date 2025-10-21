@@ -1,0 +1,7 @@
+### MCP Server and Local files
+In this section we will access local file "notes.txt" using these 2 tools: add_note_to_file (write), and read_notes (read)
+1. python file used: local.py
+2. As always, you can first test these tools using <b>MCP Inspector</b> by running `mcp dev weather.py`. after web app lauched, normally it will automatically open the webpage in browser on this address http://localhost:6274. Click Connect on the left side of the web page. Click on 'Tool' tab, click on List Tools, and test the add_note_to_file by adding content like "My favorite Genshin Impact Character is Lauma"
+3. You can install it to <b>Claude Desktop</b> by typing `mcp install local.py`, check the 'claude_desktop_config.json' whether your 'LocalNotes' mcp server already there or not.
+4. After installing on Claude Desktop, try it by asking the content of the local file that you have input it before. the prompt is something like this: 'Read my local notes and tell me what my favorite Genshin Impact character is'
+5. To test the write to local files, you can ask anything to the claude desktop and then ask it to write, e.g. first ask: "list of top genshin impact characters based on its damage" then ask "Great - add these to my local notes"

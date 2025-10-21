@@ -31,3 +31,7 @@ def read_notes() -> str:
         return "no notes file found."
     except Exception as e:
         return f"Error reading file {filename}: {e}"
+    
+
+if __name__ == "__main__":
+    mcp.run()
