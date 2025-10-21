@@ -36,3 +36,6 @@
 
 4. Install Automatically to claude desktop. will add to claude config file automatically
 `mcp install weather.py`
+
+### VSCode Editor Problem
+In some case, VSCode Editor did not recognize libraries installed on venv. It can be fixed by selecting the correct Python Interpreter from venv folder. Open the command pallete (Ctrl + Shift + P). Type 'Python: Select Interpreter' or similar with it. Click it and there will be dropdown for the right python interpreter, something like ".venv\Scripts\python.exe" (Please activate your venv in the terminal first)
